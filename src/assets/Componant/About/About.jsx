@@ -1,6 +1,6 @@
 import React from "react";
 import { Link } from "react-router";
-import data from "../../data/data.json";
+import data from "../../../assets/Data/Data.json";
 
 export default function About() {
   const team = data.posts

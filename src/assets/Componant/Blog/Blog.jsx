@@ -1,6 +1,6 @@
 import React, { useState } from "react";
 import BlogCard from "../BlogCard/BlogCard";
-import data from "../../data/data.json";
+import data from "../../../assets/Data/Data.json";
 
 export default function Blog() {
   const [search, setSearch] = useState("");
